@@ -1,0 +1,2 @@
+# .dwm
+Lazy dwm config
