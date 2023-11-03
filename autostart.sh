@@ -7,9 +7,9 @@ pamixer --set-volume 40
 dunstify "Welcome!"
 
 # Startup apps
-#flatpak run org.mozilla.firefox &
-#flatpak run com.spotify.Client &
-#discord-canary &
+flatpak run org.mozilla.firefox &
+flatpak run com.spotify.Client &
+discord-canary &
 
 # Functions
 
