@@ -5,14 +5,15 @@ xautolock -time 5 -locker slock -detectsleep &
 
 dunst &
 # slstatus &
-feh --bg-fill ~/Pictures/wallpapers/1337725.jpeg
+feh --bg-fill ~/Pictures/1337228.jpeg
 pamixer --set-volume 40
 dunstify "Welcome!"
+export PATH="/var/lib/flatpak/exports/bin/:$PATH" &
 
 # Startup apps
-flatpak run org.mozilla.firefox &
+brave-browser &
 flatpak run com.spotify.Client &
-discord-canary &
+flatpak run com.discordapp.Discord &
 
 # Functions
 storage_info() {
